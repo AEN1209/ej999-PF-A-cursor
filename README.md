@@ -100,5 +100,5 @@ To run the unit tests for the TypeScript data processing script:
 npm test
 ```
 
-This will compile the TypeScript test files and execute them using Mocha and Chai.
+This will compile the TypeScript test files and execute them using Node.js's built-in `assert` module.
 # ej999-PF-A-cursor

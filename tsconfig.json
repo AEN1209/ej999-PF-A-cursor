@@ -10,7 +10,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
-    "types": ["mocha", "chai", "csv-parse"]
+    "types": []
   },
   "include": [
     "src/**/*.ts",

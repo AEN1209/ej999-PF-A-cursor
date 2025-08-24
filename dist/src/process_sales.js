@@ -11,9 +11,9 @@ const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
 const csv_parse_1 = require("csv-parse");
 const csv_stringify_1 = require("csv-stringify");
-const INPUT_CSV_PATH = path_1.default.join(__dirname, '..' + path_1.default.sep + 'sales_data.csv');
+const INPUT_CSV_PATH = path_1.default.join(__dirname, '..' + path_1.default.sep + '..' + path_1.default.sep + 'sales_data.csv');
 exports.INPUT_CSV_PATH = INPUT_CSV_PATH;
-const OUTPUT_CSV_PATH = path_1.default.join(__dirname, '..' + path_1.default.sep + 'yearly_monthly_sales.csv');
+const OUTPUT_CSV_PATH = path_1.default.join(__dirname, '..' + path_1.default.sep + '..' + path_1.default.sep + 'yearly_monthly_sales.csv');
 exports.OUTPUT_CSV_PATH = OUTPUT_CSV_PATH;
 const BATCH_SIZE = 10000;
 async function processSalesData(inputPath, outputPath) {

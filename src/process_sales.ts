@@ -21,8 +21,8 @@ interface AggregatedSales {
     sumOfSquares: number; // Used for calculating standard deviation
 }
 
-const INPUT_CSV_PATH = path.join(__dirname, '..' + path.sep + 'sales_data.csv');
-const OUTPUT_CSV_PATH = path.join(__dirname, '..' + path.sep + 'yearly_monthly_sales.csv');
+const INPUT_CSV_PATH = path.join(__dirname, '..' + path.sep + '..' + path.sep + 'sales_data.csv');
+const OUTPUT_CSV_PATH = path.join(__dirname, '..' + path.sep + '..' + path.sep + 'yearly_monthly_sales.csv');
 
 const BATCH_SIZE = 10000;
 
